@@ -1,0 +1,10 @@
+Description:
+  Install required configurations
+
+Example:
+    rails generate bullet_train:start:install
+
+    This will:
+        create bin/start
+        create Procfile if it doesn't exist
+        append processes from template Procfile to existing Procfile if process doesn't exist
